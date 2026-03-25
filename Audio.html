@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+    <header>
+        <H1>Tutorial</H1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"> inicio</a></li>
+            <li><a href="bordes.html"> Bordes</a></li>
+            <li><a href="sombras.html"> Sombras</a></li>
+            <li><a href="imagenes.html"> Cajas</a></li>
+            <li><a href="Posicion.html"> Posicion</a></li>
+            <li><a href="Transformacion.hmtl"> Transformacion</a></li>
+            <li><a href="Formularios.html"> Formularios</a></li>
+            <li><a href="iframe.html">iframe</a></li>
+            <li><a href="Transiciones.html">Transiciones</a></li>
+            <li><a href="Columnas.html">Columnas</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="Audio.hmtl">Audio</a></li>
+            <li><a href="Transparencias.html">Transparencias</a></li>
+            <li><a href="Animacion.html">Animacion</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Uso del audio en HTML5</h2>
+
+        <article>
+            <h3>Diferentes estándares de audio</h3>
+            <p>
+                En HTML5 se puede reproducir audio sin plugins externos, pero no todos los
+                navegadores soportan los mismos formatos. Los más usados son MP3 y OGG.
+            </p>
+        </article>
+
+        <article>
+            <h3>Compatibilidad</h3>
+            <p>
+                Para asegurar compatibilidad entre navegadores, se recomienda incluir el audio
+                en más de un formato como MP3 y OGG.
+            </p>
+        </article>
+
+        <article>
+            <h3>Etiqueta &lt;audio&gt;</h3>
+            <p>
+                La etiqueta audio permite reproducir sonido en la web. Se pueden usar atributos
+                como controls, autoplay, loop y preload para controlar su comportamiento.
+            </p>
+        </article>
+
+        <article>
+            <h3>Ejemplo simple</h3>
+
+            <audio src="audio/audio.mp3" controls></audio>
+
+        </article>
+
+        <article>
+            <h3>Ejemplo completo</h3>
+
+            <audio controls>
+                <source src="audio/audio.mp3" type="audio/mpeg">
+                <source src="audio/audio.ogg" type="audio/ogg">
+
+                <p>Tu navegador no soporta HTML5</p>
+            </audio>
+
+        </article>
+
+    </section>
+    <aside></aside>
+    <footer></footer>
+</body>
+
+</html>

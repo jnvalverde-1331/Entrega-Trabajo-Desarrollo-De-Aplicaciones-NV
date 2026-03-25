@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+    <header>
+        <H1>Tutorial</H1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"> inicio</a></li>
+            <li><a href="bordes.html"> Bordes</a></li>
+            <li><a href="sombras.html"> Sombras</a></li>
+            <li><a href="imagenes.html"> Cajas</a></li>
+            <li><a href="Posicion.html"> Posicion</a></li>
+            <li><a href="Transformacion.hmtl"> Transformacion</a></li>
+            <li><a href="Formularios.html"> Formularios</a></li>
+            <li><a href="iframe.html">iframe</a></li>
+            <li><a href="Transiciones.html">Transiciones</a></li>
+            <li><a href="Columnas.html">Columnas</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="Audio.hmtl">Audio</a></li>
+            <li><a href="Transparencias.html">Transparencias</a></li>
+            <li><a href="Animacion.html">Animacion</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Registro de usuario</h2>
+
+        <article>
+            <p>
+                Los formularios en HTML5 permiten recoger información del usuario
+                con validación automática sin necesidad de JavaScript.
+            </p>
+        </article>
+
+        <article>
+            <h3>Ejemplo práctico</h3>
+
+            <form action="#" method="post">
+
+                <label>Nombre:</label><br>
+                <input type="text" name="nombre" size="40" required autofocus title="Escribe tu nombre"><br><br>
+
+                <label>Correo electrónico:</label><br>
+                <input type="email" name="correo" placeholder="usuario@dominio.com" required
+                    title="Introduce un correo válido"><br><br>
+
+                <label>Contraseña:</label><br>
+                <input type="password" name="password" required><br><br>
+
+                <label>Fecha de nacimiento:</label><br>
+                <input type="date" name="fecha" value="2000-01-01"><br><br>
+
+                <label>Personaje favorito:</label><br>
+                <input type="radio" name="personaje" value="Flash" checked> Flash<br>
+                <input type="radio" name="personaje" value="Batman"> Batman<br>
+                <input type="radio" name="personaje" value="Superman"> Superman<br><br>
+
+                <label>¿Cuántos cómics lees a la semana?</label><br>
+                <input type="range" min="1" max="7" value="2"><br><br>
+
+                <label>Color favorito:</label><br>
+                <input type="color" value="#ff0000"><br><br>
+
+                <label>Cantidad de cómics:</label><br>
+                <input type="number" min="100" max="9000" value="100"><br><br>
+
+                <label>Subir archivo:</label><br>
+                <input type="file" accept="image/*"><br><br>
+
+                <input type="submit" value="Enviar datos">
+
+            </form>
+
+        </article>
+
+    </section>
+    <aside></aside>
+    <footer></footer>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+    <header>
+        <H1>Tutorial</H1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"> inicio</a></li>
+            <li><a href="bordes.html"> Bordes</a></li>
+            <li><a href="sombras.html"> Sombras</a></li>
+            <li><a href="imagenes.html"> Cajas</a></li>
+            <li><a href="Posicion.html"> Posicion</a></li>
+            <li><a href="Transformacion.hmtl"> Transformacion</a></li>
+            <li><a href="Formularios.html"> Formularios</a></li>
+            <li><a href="iframe.html">iframe</a></li>
+            <li><a href="Transiciones.html">Transiciones</a></li>
+            <li><a href="Columnas.html">Columnas</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="Audio.hmtl">Audio</a></li>
+            <li><a href="Transparencias.html">Transparencias</a></li>
+            <li><a href="Animacion.html">Animacion</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Uso del video en HTML5</h2>
+
+        <article>
+            <h3>Diferentes estándares de video</h3>
+            <p>
+                En HTML5 se pueden insertar videos directamente, pero no todos los navegadores
+                soportan los mismos formatos. Los principales formatos son MP4, OGG y WebM.
+            </p>
+        </article>
+
+        <article>
+            <h3>Compatibilidad</h3>
+            <p>
+                Para asegurar que el video funcione en todos los navegadores, es recomendable
+                incluir el mismo video en diferentes formatos.
+            </p>
+        </article>
+
+        <article>
+            <h3>Etiqueta &lt;video&gt;</h3>
+            <p>
+                La etiqueta video permite reproducir contenido multimedia directamente en la página.
+                Se pueden usar atributos como controls, autoplay, loop, muted, preload y poster.
+            </p>
+        </article>
+
+        <article>
+            <h3>Ejemplo práctico</h3>
+
+            <video width="600" height="400" controls poster="imagenes/fondo.jpg">
+                <source src="video/video.mp4" type="video/mp4">
+                <source src="video/video.webm" type="video/webm">
+                <source src="video/video.ogv" type="video/ogg">
+
+                <p>Tu navegador no soporta HTML5</p>
+            </video>
+
+        </article>
+
+        <article>
+            <h3>Compatibilidad con navegadores antiguos</h3>
+
+            <video width="600" height="400" controls poster="imagenes/fondo.jpg">
+                <source src="video/video.mp4" type="video/mp4">
+
+                <object width="600" height="400" data="video/video.flv">
+                    <param name="movie" value="video/video.flv">
+                    <embed src="video/video.flv" width="600" height="400">
+                </object>
+
+                <p>Tu navegador no soporta HTML5</p>
+            </video>
+
+        </article>
+
+        <article>
+            <h3>Video de YouTube</h3>
+
+            <div class="youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_93kDSPlKIM" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+
+        </article>
+
+    </section>
+    <aside></aside>
+    <footer></footer>
+</body>
+
+</html>
